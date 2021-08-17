@@ -9,6 +9,8 @@
 | :----------------------- | :--------------------------------------------------------------------------------------- |
 |           src/            |                        Contains all JS and CSS files for the app.                         |
 | src/components |                contains reusable components.                |
+| src/assets |                contains assets like css and images                |
+| src/apollo |                contains the query graphql                |
 |        src/pages         |                             contains pages from the web.                              |
 |       gatsby-config.js        |                 gatsby js configuration like plugins etc.                   |
 |       package.json        |                  Lists dependencies, version build information and ect.
@@ -18,8 +20,8 @@
 - [Nodejs](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/getting-started/install)
 
 ### Install dependencies
+
 ```
-bash
 yarn
 ```
 or
