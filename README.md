@@ -1,54 +1,48 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Web Travel
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+### Overview the project structure
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Directory
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+|        File/Folder        |                                       Description                                        |
+| :----------------------- | :--------------------------------------------------------------------------------------- |
+|           src/            |                        Contains all JS and CSS files for the app.                         |
+| src/components |                contains reusable components.                |
+|        src/pages         |                             contains pages from the web.                              |
+|       gatsby-config.js        |                 gatsby js configuration like plugins etc.                   |
+|       package.json        |                  Lists dependencies, version build information and ect.
 
-2.  **Start developing.**
+### Prerequisites
 
-    Navigate into your new site’s directory and start it up.
+- [Nodejs](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/getting-started/install)
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### Install dependencies
+```
+bash
+yarn
+```
+or
+```
+npm install
+```
 
-3.  **Open the code and start customizing!**
+### Run Locally
 
-    Your site is now running at http://localhost:8000!
+   ```bash
+   yarn run develop
+   ```
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:8000) to view it in the browser.
 
-4.  **Learn more**
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Deployment
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   ```bash
+   yarn run build
+   ```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
