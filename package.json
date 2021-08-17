@@ -1,0 +1,25 @@
+{
+  "name": "web-travel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "web-travel",
+  "author": "HamdanA",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.1",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-sass": "^4.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.38.0"
+  }
+}
