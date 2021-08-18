@@ -29,7 +29,14 @@ or
 npm install -g gatsby-cli
 ```
 
-change directory to project then run ```yarn``` or ```npm install``` 
+change directory to project then run 
+```
+yarn
+``` 
+or 
+```
+npm install
+``` 
 
 ### Run Locally
 
